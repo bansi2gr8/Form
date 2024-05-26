@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+        display: flex;
+        justify-content: center;
+        }
+        h3{
+            text-align: center;
+        }
+        form {
+            border: 2px solid black;
+            width: 500px;
+        }
+
+        .first_name {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .last_name {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .email_id {
+            /* border: 2px solid black; */
+            width: 270px;
+        }
+
+        .email_dv {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .moblie_no {
+            /* border: 2px solid black; */
+            width: 420px;
+        }
+
+        .digits {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .gender {
+            /* border: 2px solid black; */
+            width: 200px;
+        }
+
+        .radio {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .dob {
+            width: 40px;
+        }
+
+        .birth {
+            /* border: 2px solid black; */
+            width: 370px;
+        }
+
+        .year {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .address {
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            width: 260px;
+            justify-content: space-around;
+        }
+
+        .add {
+            height: 100px;
+        }
+
+        .city {
+            width: 440px;
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .pin_code {
+            /* border: 2px solid black; */
+            width: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .state {
+            /* border: 2px solid black; */
+            width: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .country {
+            /* border: 2px solid black; */
+            width: 260px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .hobbie {
+            /* border: 2px solid black; */
+            width: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .education {
+            /* border: 2px solid red; */
+            width: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .courses {
+            /* border: 2px solid black; */
+            width: 450px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .bottom {
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        .two {
+            /* border: 2px solid black; */
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        
+        <form>
+            <h3>Student Registration Form Using Table in HTML</h3>
+            <div class="first_name">
+                <p>First Name</p><input type="text" placeholder="First Name">(Max 50 Characters Allowed)
+            </div>
+            <div class="last_name">
+                <p>Last Name</p><input type="text" placeholder="First Name">(Max 50 Characters Allowed)
+            </div>
+            <div class="email_id">
+                <div class="email_dv">
+                    <p>Email Id</p><input type="text" placeholder="Email Id">
+                </div>
+            </div>
+            <div class="moblie_no">
+                <div class="digits">
+                    <p>Last Name</p><input type="text" placeholder="moblie Number">(10 Digits Allowed)
+                </div>
+            </div>
+            <div class="gender">
+                <div class="radio">
+                    <p>Gender</p>
+                    <div>
+                        <input type="radio">Male
+                        <input type="radio">Female
+                    </div>
+                </div>
+            </div>
+            <div class="birth">
+                <div class="year">
+                    <p>Date of Birth(DOB)</p><input type="text" placeholder="day" class="dob">
+                    <select>
+                        <option value="months">January</option>
+                        <option value="months">February</option>
+                        <option value="months">March</option>
+                        <option value="months">April</option>
+                        <option value="months">May</option>
+                        <option value="months">June</option>
+                        <option value="months">July</option>
+                        <option value="months">August</option>
+                        <option value="months">September</option>
+                        <option value="months">October</option>
+                        <option value="months">November</option>
+                        <option value="months">December</option>
+                    </select>
+                    <input type="text" placeholder="year" class="dob">
+                </div>
+                <div class="address">
+                    <p>Address</p><input type="text" class="add">
+                </div>
+            </div>
+            <div class="city">
+                <p>City</p><input type="text" placeholder="city">(Max 50 Characters Allowed)
+            </div>
+            <div class="pin_code">
+                <p>Pin Code</p><input type="text" placeholder="Pin code">(Max 6 Number Allowed)
+            </div>
+            <div class="state">
+                <p>State</p><input type="text" placeholder="state">(Max 50 Characters Allowed)
+            </div>
+            <div class="country">
+                <p>Country</p><input type="text" placeholder="country">
+            </div>
+            <div class="hobbie">
+                <p>Hobbies</p><input type="text" placeholder="hobbies">(Max 50 Characters Allowed)
+            </div>
+            <hr>
+            <div class="education">
+                <p>Quaification</p>
+                <div>
+                    <div>
+                        <input type="radio">High School(10th)
+                        <br>
+                        <input type="radio">High School(12th)
+                        <br>
+                        <input type="radio">Graduation
+                        <br>
+                        <input type="radio"> Post Graduation
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="courses">
+                <p>Courses Applied For</p>
+                <div>
+                    <div>
+                        <input type="radio">BCA(Bachelor of Computer Application)
+                        <br>
+                        <input type="radio">B.Com(Bachelor of Commerce)
+                        <br>
+                        <input type="radio">BA(Bachelor of Art)
+                        <br>
+                        <input type="radio">MCA(Master of Computer Application)
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="bottom">
+                <div class="two">
+                    <p>Submit</p>
+                    <p>Reset</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
